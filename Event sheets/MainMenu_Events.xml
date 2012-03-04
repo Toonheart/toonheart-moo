@@ -4,16 +4,6 @@
     <name>MainMenu_Events</name>
     <events>
         <event-group description="Event group for all system actions which do not require user input." title="MainMenu_System_Events" />
-        <event-block>
-            <conditions>
-                <condition id="-2" name="On start of layout" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Set cursor style" type="Mouse">
-                    <param id="0" name="Cursor style">1</param>
-                </action>
-            </actions>
-        </event-block>
         <event-group description="Event group for all user mouse based actions" title="MainMenu_User_Mouse_Events" />
         <event-block>
             <conditions>
@@ -38,6 +28,9 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Set cursor style" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
                 <action id="4" name="Set animation" type="MainMenu_Play">
                     <param id="0" name="Animation">&quot;Default&quot;</param>
                     <param id="1" name="From">1</param>
@@ -60,7 +53,7 @@
         </event-block>
         <event-block>
             <conditions>
-                <condition id="3" name="On touched object" type="Touch">
+                <condition id="4" inverted="1" name="Is touching object" type="Touch">
                     <param id="0" name="Object">MainMenu_Play</param>
                 </condition>
             </conditions>
