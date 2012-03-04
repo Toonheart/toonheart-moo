@@ -6,7 +6,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
         <position-x>683</position-x>
         <position-y>384</position-y>
-        <position-z>380.701</position-z>
+        <position-z>285.312</position-z>
         <lookat-x>683</lookat-x>
         <lookat-y>384</lookat-y>
         <lookat-z>0</lookat-z>
@@ -17,13 +17,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <properties>
         <property expanded="1" name="Layout Properties" />
         <property expanded="0" name="Layout Size" />
-        <property expanded="1" name="Margins" />
+        <property expanded="0" name="Margins" />
     </properties>
-    <active-layer name="Banner_BG" />
+    <active-layer name="Movie1_BG" />
     <layers>
-        <layer locked="0" name="Banner_BG" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Banner_Scroll" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Banner_Objects" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Banner_GUI" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Movie1_BG" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Movie_Scroll" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Movie1_GUI" parallax-in-editor="0" visible="1" />
     </layers>
 </c2uistate>

@@ -1,35 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>toonheart-holycow</name>
-    <description></description>
+    <description>HolyCow!!! - The Game</description>
     <version>1.0</version>
     <unique-id>956dmawkpr6d</unique-id>
     <saved-with-version>8002</saved-with-version>
-    <used-plugins />
+    <used-plugins>
+        <plugin id="Sprite" version="1">Sprite</plugin>
+    </used-plugins>
     <used-behaviors />
     <configurations>
         <configuration exporter-descname="HTML 5" exporter-id="html5" name="HTML 5" />
     </configurations>
     <window-size>
-        <width>640</width>
-        <height>480</height>
+        <width>1366</width>
+        <height>768</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
+    <first-layout>Banner</first-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
         <prop name="Enable WebGL">On</prop>
         <prop name="Fullscreen in browser">On (scale mode)</prop>
-        <prop name="Preview browser">(default)</prop>
+        <prop name="Preview browser">Chrome</prop>
         <prop name="Preview mode">HTTP</prop>
         <prop name="Sampling">Linear</prop>
     </configuration-settings>
-    <object-folder expanded="1" />
+    <object-folder expanded="1">
+        <object-type name="ToonheartBanner">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
     <families />
     <layout-folder expanded="1">
         <layout>Banner.xml</layout>
+        <layout>Movie1.xml</layout>
     </layout-folder>
     <event-folder expanded="1">
         <event-sheet>Banner_Events.xml</event-sheet>
+        <event-sheet>Movie1_Events.xml</event-sheet>
     </event-folder>
     <global-instances />
     <sounds-folder expanded="1" />
