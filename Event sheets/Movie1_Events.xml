@@ -5,9 +5,12 @@
     <events>
         <event-block>
             <conditions>
-                <condition id="-3" name="On end of layout" type="System" />
+                <condition id="-2" name="On start of layout" type="System" />
             </conditions>
             <actions>
+                <action id="-16" name="Wait" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
                 <action id="-2" name="Go to layout" type="System">
                     <param id="0" name="Layout">MainMenu</param>
                 </action>

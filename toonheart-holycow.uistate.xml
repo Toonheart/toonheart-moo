@@ -14,6 +14,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout>Movie1</layout>
         <layout>MainMenu</layout>
         <event-sheet active="1">MainMenu_Events</event-sheet>
+        <event-sheet>Movie1_Events</event-sheet>
+        <event-sheet>Banner_Events</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="Project settings" />
