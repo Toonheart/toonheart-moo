@@ -24,7 +24,7 @@
             <opacity>1</opacity>
             <force-own-texture>0</force-own-texture>
             <instances>
-                <instance type="ToonheartBanner">
+                <instance type="Toonheart_Banner">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-frame>0</initial-frame>
@@ -34,42 +34,16 @@
                         <x>683</x>
                         <y>384</y>
                         <z>0</z>
-                        <width>1366</width>
-                        <height>768</height>
+                        <width>849</width>
+                        <height>211</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>0.500590324</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
             </instances>
-        </layer>
-        <layer name="Banner_Scroll">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
-            <parallax>
-                <x>0.5</x>
-                <y>0.5</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <instances />
-        </layer>
-        <layer name="Banner_Objects">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
-            <parallax>
-                <x>1</x>
-                <y>1</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <instances />
         </layer>
         <layer name="Banner_GUI">
             <initially-visible>1</initially-visible>

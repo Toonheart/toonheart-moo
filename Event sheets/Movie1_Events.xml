@@ -2,5 +2,16 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Movie1_Events</name>
-    <events />
+    <events>
+        <event-block>
+            <conditions>
+                <condition id="-3" name="On end of layout" type="System" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" type="System">
+                    <param id="0" name="Layout">MainMenu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
