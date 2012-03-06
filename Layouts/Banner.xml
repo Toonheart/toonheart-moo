@@ -10,7 +10,7 @@
         <horizontal>0</horizontal>
         <vertical>0</vertical>
     </margins>
-    <unbounded-scrolling>0</unbounded-scrolling>
+    <unbounded-scrolling>1</unbounded-scrolling>
     <layers>
         <layer name="Banner_BG">
             <initially-visible>1</initially-visible>
