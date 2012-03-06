@@ -9,6 +9,7 @@
         <plugin id="Audio" version="1">Audio</plugin>
         <plugin id="Mouse" version="1">Mouse</plugin>
         <plugin id="Sprite" version="1">Sprite</plugin>
+        <plugin id="TiledBg" version="1">Tiled Background</plugin>
         <plugin id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors />
@@ -338,6 +339,10 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground">
+            <plugin id="TiledBg" />
+            <texture />
         </object-type>
     </object-folder>
     <families />
