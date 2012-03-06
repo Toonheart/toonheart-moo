@@ -53,12 +53,12 @@
         </event-block>
         <event-block>
             <conditions>
-                <condition id="4" inverted="1" name="Is touching object" type="Touch">
+                <condition disabled="1" id="4" inverted="1" name="Is touching object" type="Touch">
                     <param id="0" name="Object">MainMenu_Play</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="4" name="Set animation" type="MainMenu_Play">
+                <action disabled="1" id="4" name="Set animation" type="MainMenu_Play">
                     <param id="0" name="Animation">&quot;Default&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
