@@ -3,8 +3,8 @@
     <name>Movie1</name>
     <event-sheet>Movie1_Events</event-sheet>
     <size>
-        <width>1366</width>
-        <height>768</height>
+        <width>2048</width>
+        <height>1536</height>
     </size>
     <margins>
         <horizontal>0</horizontal>

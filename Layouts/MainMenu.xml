@@ -3,8 +3,8 @@
     <name>MainMenu</name>
     <event-sheet>MainMenu_Events</event-sheet>
     <size>
-        <width>1366</width>
-        <height>768</height>
+        <width>2048</width>
+        <height>1536</height>
     </size>
     <margins>
         <horizontal>0</horizontal>
@@ -23,27 +23,7 @@
             <zoom-rate>1</zoom-rate>
             <opacity>1</opacity>
             <force-own-texture>0</force-own-texture>
-            <instances>
-                <instance type="TiledBackground">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <effect>(none)</effect>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <world>
-                        <x>0</x>
-                        <y>0</y>
-                        <z>0</z>
-                        <width>1366</width>
-                        <height>768</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-            </instances>
+            <instances />
         </layer>
         <layer name="MainMenu_Objects">
             <initially-visible>1</initially-visible>
@@ -64,11 +44,11 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>683</x>
-                        <y>384</y>
+                        <x>1024</x>
+                        <y>768</y>
                         <z>0</z>
-                        <width>415.276855469</width>
-                        <height>714.703918457</height>
+                        <width>558.731628418</width>
+                        <height>961.593933105</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -83,11 +63,11 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>683</x>
-                        <y>384</y>
+                        <x>1024</x>
+                        <y>738</y>
                         <z>0</z>
-                        <width>299.067657471</width>
-                        <height>604.662536621</height>
+                        <width>457.985870361</width>
+                        <height>925.967407227</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.500490665</hotspotY>
@@ -116,8 +96,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>1037</x>
-                        <y>210</y>
+                        <x>1437</x>
+                        <y>653</y>
                         <z>0</z>
                         <width>418.351379395</width>
                         <height>236.643188477</height>

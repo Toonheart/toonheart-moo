@@ -3,12 +3,12 @@
     <name>Banner</name>
     <event-sheet>Banner_Events</event-sheet>
     <size>
-        <width>1366</width>
-        <height>768</height>
+        <width>2048</width>
+        <height>1536</height>
     </size>
     <margins>
-        <horizontal>0</horizontal>
-        <vertical>0</vertical>
+        <horizontal>500</horizontal>
+        <vertical>500</vertical>
     </margins>
     <unbounded-scrolling>1</unbounded-scrolling>
     <layers>
@@ -31,8 +31,8 @@
                         <effect>(none)</effect>
                     </properties>
                     <world>
-                        <x>683</x>
-                        <y>384</y>
+                        <x>1024</x>
+                        <y>768</y>
                         <z>0</z>
                         <width>849</width>
                         <height>211</height>
